@@ -17,8 +17,11 @@
 	font-size: 32px;
 	color: red;
 	background: url(https://media.gettyimages.com/photos/perfect-wood-planks-background-picture-id523584249?b=1&k=6&m=523584249&s=612x612&w=0&h=LJ8b5cbwCLJU7iZAPSbm5skekvf_Vy7RZbgACH6Ze8g=);
-	height: 100px;
-	max-width: 600px;
+	height: 130%;
+	width: 1200px;
+	align-content: center;
+	display: block;
+	margin: 0px;
 }
 
 .nav1 {
@@ -59,8 +62,9 @@
 }
 
 body {
-	max-width: 600px;
 	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQT2nbFJQjVCyHVPGUz8ZoZr54XQEjatQtFhDkcw8dtvbV1eRrIw);
+	display: block;
+	margin: 0px;
 }
 
 .green {
@@ -81,4 +85,7 @@ body {
 
 .black {
 	color: rgb(0, 0, 0,);
+}
+h1 {
+	margin: 0px;
 }
