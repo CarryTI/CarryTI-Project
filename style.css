@@ -14,7 +14,7 @@
 
 .navigate {
 	font-family: Georgia;
-	font-size: 32px;
+	font-size: 20px;
 	color: red;
 	background: url(https://s3.envato.com/files/136610938/01_preview.png);
 	height: 130%;
@@ -70,6 +70,8 @@ body {
 	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQT2nbFJQjVCyHVPGUz8ZoZr54XQEjatQtFhDkcw8dtvbV1eRrIw);
 	display: block;
 	margin: 0px;
+	font: 14px 'Verdana';
+    padding: 0;
 }
 
 .green {
@@ -86,7 +88,9 @@ body {
 
 .white {
 	color: rgb(255, 255, 255);
-}
+    background-color: black;
+    width: 100px;
+ }
 
 .black {
 	color: rgb(0, 0, 0,);
@@ -94,3 +98,125 @@ body {
 h1 {
 	margin: 0px;
 }
+
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.menu > li {
+    float: left;
+    position: relative;
+}
+ul.menu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: rgb(0, 153, 255);
+    text-decoration: none;
+}
+ul.menu > li > a:hover {
+    background-color: black;
+}
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 150px;
+    top: 43px;
+    left: 0px;
+    background-color: white;
+}
+ul.submenu > li {
+    display: block;
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: rgb(0, 153, 255);
+    text-decoration: none;
+}
+ul.submenu > li > a:hover {
+    background-color: black;
+
+}
+
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+
+
+.area {
+  text-align: center;
+  font-weight: 700;
+  animation: blur 10s ease-out infinite;
+
+}
+
+@keyframes blur {
+  from {
+    text-shadow:0px 0px .1px #fff,
+      0px 0px .1px #fff, 
+      0px 0px .2px #fff,
+      0px 0px .2px #fff,
+      0px 0px .2px #fff,
+      0px 0px .2px #fff,
+      0px 0px .2px #fff,
+      0px 0px .2px #fff,
+      0px 0px .5px #fff,
+      0px 0px .5px #fff,
+      0px 0px .5px #7B96B8,
+      0px 0px 1.5px #7B96B8,
+      0px .1px 1.0px #7B96B8,
+      0px .1px 1.0px #7B96B8,
+      0px .1px 1.0px #7B96B8,
+      0px .1px 1.0px #7B96B8,
+      0px -.1px 1.0px #7B96B8,
+      0px -.1px 1.0px #7B96B8;
+  }
+}
+
+.info {
+  color: white;
+  font:1em/1 sans-serif;
+  text-align: center;
+}
+
+.info a{
+  color: white;
+}
+
+svg{
+  width: 200px;
+  height: 100px;
+  display: block;
+  position: relative;
+  overflow: hidden; 
+  margin: 0 auto;
+  background: black;
+}
+
+.h3 {
+ 	font-size:5em;
+ 	font:bold 7.5vw/1.6 'Signika', sans-serif;
+ 	user-select:none;
+}
+
+ a.rollover {
+    background: url(https://upload.wikimedia.org/wikipedia/commons/2/28/RGB_illumination.jpg); 
+    display: block; 
+    width: 400px; 
+    height: 300px; 
+   }
+   a.rollover:hover {
+    background: url(http://mrsbtechsummit.weebly.com/uploads/2/5/9/8/25985443/8951293.jpg?385); 
+   }
+
+
