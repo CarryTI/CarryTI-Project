@@ -16,7 +16,7 @@
 	font-family: Georgia;
 	font-size: 32px;
 	color: red;
-	background: url(https://media.gettyimages.com/photos/perfect-wood-planks-background-picture-id523584249?b=1&k=6&m=523584249&s=612x612&w=0&h=LJ8b5cbwCLJU7iZAPSbm5skekvf_Vy7RZbgACH6Ze8g=);
+	background: url(https://s3.envato.com/files/136610938/01_preview.png);
 	height: 130%;
 	width: 1200px;
 	align-content: center;
@@ -40,6 +40,11 @@
 	margin-left: 30px;
 	margin-right: 30px;
 	color: aqua;
+}
+
+p {
+	font-size: 18px;
+	font-family: cursive;
 }
 
 .nav4 {
