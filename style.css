@@ -217,6 +217,22 @@ svg{
    }
    a.rollover:hover {
     background: url(http://mrsbtechsummit.weebly.com/uploads/2/5/9/8/25985443/8951293.jpg?385); 
-   }
+   } 
+
+    .layer1 {  
+    background-color: white;
+    float: left;
+    width: 380px;
+    padding: 9px;
+    border: 1px solid black;
+}
+
+.layer2 {
+	width: 1200px; 
+	background-color: white; 
+	margin-top: 0px; 
+	margin: auto
+	!important;
+}
 
 
