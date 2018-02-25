@@ -67,7 +67,7 @@ p {
 }
 
 body {
-	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQT2nbFJQjVCyHVPGUz8ZoZr54XQEjatQtFhDkcw8dtvbV1eRrIw);
+	background: url(http://bgfons.com/upload/industrial_texture686.jpg);
 	display: block;
 	margin: 0px;
 	font: 14px 'Verdana';
@@ -255,6 +255,11 @@ ul.vladik {
 ul.vladik li {
     display: inline; 
     margin-right: 5px; 
+   }
+
+   .op {
+   	opacity: 1
+   	!important;
    }
 
 
