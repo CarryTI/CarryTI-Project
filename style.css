@@ -2,10 +2,6 @@
 	width: 600px;
 }
 
-.rgbimg {
-	max-width: 400px;
-}
-
 .rgbimg p {
 	text-align: center;
 	margin: 2px;
@@ -67,7 +63,7 @@ p {
 }
 
 body {
-	background: url(http://bgfons.com/upload/industrial_texture686.jpg);
+	background: url(https://wallpapersite.com/images/wallpapers/space-satellite-5120x2880-nasa-5k-6523.jpg);
 	display: block;
 	margin: 0px;
 	font: 14px 'Verdana';
