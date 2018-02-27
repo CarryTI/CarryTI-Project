@@ -40,7 +40,7 @@
 
 p {
 	font-size: 18px;
-	font-family: cursive;
+	font-family: Verdana, cursive;
 }
 
 .nav4 {
@@ -93,7 +93,13 @@ body {
 }
 h1 {
 	margin: 0px;
+  font-family: Bradley Hand, cursive;
 }
+
+h2 {
+  font-family: Bradley Hand, cursive;
+}
+
 
 ul {
     display: block;
