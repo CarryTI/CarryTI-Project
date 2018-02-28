@@ -1,0 +1,223 @@
+.navigate {
+	font-family: Georgia;
+	font-size: 20px;
+	color: red;
+	height: 130%;
+	width: 1920px;
+	align-content: center;
+	display: block;
+	margin-bottom: 150px;
+}
+
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+
+}
+ul.menu > li {
+    float: left;
+    position: relative;
+
+}
+ul.menu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: rgb(0, 153, 255);
+    text-decoration: none;
+    border-radius: 50px;
+}
+ul.menu > li > a:hover {
+    background-color: black;
+
+}
+
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 150px;
+    top: 42px;
+    left: 0px;
+    background-color: white;
+
+}
+ul.submenu > li {
+    display: block;
+}
+
+ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: rgb(0, 153, 255);
+    text-decoration: none;
+
+}
+ul.submenu > li > a:hover {
+    background-color: black;
+    border-radius: 10px;
+
+}
+
+ul.menu > li:hover > ul.submenu {
+    display: block;
+
+}
+
+.gimage {
+	margin-right: 200px;
+	height: 750px;
+	width: 500px;
+	position: relative;
+	display: inline-block;
+	float: left;
+	left: 100px;
+}
+.text {
+    width: 800px;
+    font-size: 18px;
+	font-family: Verdana, cursive;
+
+}
+
+.bio {
+	width: 1000px;
+	display: inline-block;
+}
+
+.reward {
+	width: 750px;
+	height: 800px;
+	position: relative;
+	display: inline-block;
+	float: left;
+	left: 100px;
+	top: -400px;
+}
+
+.rewardimg {
+	margin: 0px;
+	height: 200px;
+	width: 200px;
+	margin-bottom: 20px;
+	display: inline-block;
+	clear: both;
+	float: left;
+
+}
+
+
+.bioreward1 {
+	position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    padding:5px;
+    display:none;
+}
+
+
+.rewardimg1 {
+    position:relative;   
+    width:200px;
+    height:200px;
+    clear: both;
+	float: left;
+	margin-bottom: 20px;
+	display: inline-block;
+	background-image: url(https://vignette.wikia.nocookie.net/lego/images/1/16/Harrypottery5-7-200x200.jpg/revision/latest?cb=20111021110949);
+
+
+}
+.block{
+    position:absolute;
+    left: 250px;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    display:none;
+    width: 550px;
+    height: 200px;
+    border: 2px double black;
+    border-radius: 20px;
+    background-color: rgb(224, 255, 255)
+}
+
+.rewardimg1:hover .block{
+    display:block;
+}
+
+.rewardimg2:hover .block{
+    display:block;
+}
+
+.rewardimg3:hover .block{
+    display:block;
+}
+.rewardimg2 {
+    position:relative;   
+    width:200px;
+    height:200px;
+    clear: both;
+	float: left;
+	margin-bottom: 20px;
+	display: inline-block;
+	background-image: url(https://vignette.wikia.nocookie.net/lego/images/1/16/Harrypottery5-7-200x200.jpg/revision/latest?cb=20111021110949);
+}
+
+.rewardimg3 {
+    position:relative;   
+    width:200px;
+    height:200px;
+    clear: both;
+	float: left;
+	margin-bottom: 20px;
+	display: inline-block;
+	background-image: url(https://vignette.wikia.nocookie.net/lego/images/1/16/Harrypottery5-7-200x200.jpg/revision/latest?cb=20111021110949);
+}
+
+.facebook {
+	width: 200px;
+	height: 200px;
+	float: left;
+	display: inline;
+	position: relative;
+	margin-right: 50px;
+}
+
+.instagram {
+	width: 200px;
+	height: 200px;
+	float: left;
+	display: inline;
+	position: relative;
+	margin-right: 50px;
+}
+
+.twitter {
+	width: 200px;
+	height: 200px;
+	float: left;
+	display: inline;
+	position: relative;
+	margin-right: 50px;
+}
+
+.telegram {
+	width: 200px;
+	height: 200px;
+	float: left;
+	display: inline;
+	position: relative;
+	margin-right: 50px;
+}
