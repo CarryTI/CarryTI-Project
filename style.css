@@ -91,6 +91,12 @@ ul.menu > li:hover > ul.submenu {
 
 }
 
+.bio h2 {
+  font-style: cursive;
+  font-size: 28px;
+}
+
+
 .reward {
 	width: 750px;
 	height: 800px;
@@ -98,6 +104,8 @@ ul.menu > li:hover > ul.submenu {
 	display: inline-block;
   float: left;
   left: 20px;
+  bottom: 190px;
+
 	
 	
 }
@@ -148,7 +156,7 @@ ul.menu > li:hover > ul.submenu {
     right: 0;
     top: 0;
     display:none;
-    width: 550px;
+    width: 350px;
     height: 200px;
     border: 2px double black;
     border-radius: 20px;
@@ -241,7 +249,7 @@ body {
 .nav {
   height: 48px;
   display: inline-block;
-  background-image: url(file:///E:/Project/Surprise/bg.png)
+  background-image: url(./bg.png)
 }
 .nav > li, .nav:active > .active {
   float: left;
@@ -334,7 +342,7 @@ body {
   width: 16px;
   height: 16px;
   vertical-align: text-top;
-  background-image: url(file:///E:/Project/Surprise/icons.png);
+  background-image: url(./icons.png);
   background-repeat: no-repeat;
   background-color: transparent;
   font: 0/0 serif;
