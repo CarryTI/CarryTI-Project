@@ -1,3 +1,7 @@
+.navigate {
+  border-bottom: 1px double white;
+}
+
 
 
 ul {
@@ -199,13 +203,22 @@ ul.menu > li:hover > ul.submenu {
   background-color: white;
 }
 
-.container {
+.container2 {
 	margin-bottom: 20px;
 	width: 1200px;
 	vertical-align: top;
 	margin-top: 0px;
   background-color: white;
 }
+
+.container {
+  margin-bottom: 20px;
+  width: 1920px;
+  vertical-align: top;
+  margin-top: 0px;
+  background-color: white;
+}
+
 .social {
 	display: inline-block;
 	width: 1000px;
@@ -417,4 +430,31 @@ opacity: 1;
 
 }
 
+.header {
+  height: 1080px;
+  width: 1920px;
+}
 
+@keyframes bgAnim {
+  0% {
+    background-position: 0px 0%, center center;
+  }
+  25% {
+    background-position: -10px 0%, center center;
+  }
+  50% {
+    background-position: -10px -10%, center center;
+}
+  75% {
+    background-position: -0px -10%, center center;
+  }
+  100% {
+    background-position: 0px 0%, center center;
+  }
+}
+
+.header_img {
+  animation: bgAnim 10s infinite;
+  background-image: url(https://wallpaperscraft.com/image/triangle_light_blurred_88541_1920x1080.jpg);
+  height: 12
+}
