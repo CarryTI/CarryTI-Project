@@ -1,5 +1,6 @@
 
 #include "header.h"
+#include <stdio.h>
 
 class myMatrix
 {
@@ -27,44 +28,48 @@ private:
 */
 
     // variant 1
-    // public:
-    //     int **add(myMatrix matrix)
-    //     {
-    //         int **summ;
-
-    //         summ = (int **)malloc(sizeof(int *) * this->i);
+ //    public: int **add(myMatrix matrix)
+   //      {
+     //        int **summ;
+//
+  //           summ = (int **)malloc(sizeof(int *) * this->i);
     //         for (int x = 0; x < this->i; x++)
-    //             summ[x] = (int *)malloc(sizeof(int) * this->j);
+      //       {
+        //         summ[x] = (int *)malloc(sizeof(int) * this->j);
+          //   }
 
-    //         for (int y = 0; y < this->i; y++)
-    //         {
-    //             for (int x = 0; x < this->j; x++)
-    //             {
-    //                 summ[y][x] = this->mat[y][x] + (matrix.getMat())[y][x];
-    //             }
-    //         }
-    //         return (summ);
-    //     }
+      //       for (int y = 0; y < this->i; y++)
+       //      {
+         //        for (int x = 0; x < this->j; x++)
+           //      {
+          //          summ[y][x] = this->mat[y][x] + (matrix.getMat())[y][x];
+           //      }
+           //  }
+           //  return (summ);
+       // }
 
     //variant 2
-public:
-    myMatrix add(myMatrix matrix)
-    {
-        myMatrix summ;
-    }
+//public:
+ //   myMatrix add(myMatrix matrix)
+  //  {
+  //      myMatrix summ;
+  //  }
 
     //variant 3
-    // public:
-    //     void add(myMatrix matrix1, myMatrix matrix2)
-    //     {
-    //         for (int y = 0; y < this->i; y++)
-    //         {
-    //             for (int x = 0; x < this->j; x++)
-    //             {
-    //                 this->mat[y][x] = (matrix1.getMat())[y][x] + (matrix2.getMat())[y][x];
-    //             }
-    //         }
-    //     }
+     public:
+         void add(myMatrix matrix1, myMatrix matrix2)
+         {
+             this->i = matrix1.getI();
+             this->j = matrix1.getJ();
+             this->allocateMat();
+             for (int y = 0; y < this->i; y++)
+             {
+                 for (int x = 0; x < this->j; x++)
+                 {
+                     this->mat[y][x] = (matrix1.getMat())[y][x] + (matrix2.getMat())[y][x];
+                 }
+             }
+         }
 
 public:
     myMatrix copyMat()

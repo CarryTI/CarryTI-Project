@@ -16,3 +16,18 @@
 1568844557 d:\codeblocks\projects\helloworld\matrixclass.cpp
 	"header.h"
 
+1568851710 source:c:\users\admin\desktop\test\helloworld\main.cpp
+	"header.h"
+	"matrixClass.cpp"
+
+1568838634 c:\users\admin\desktop\test\helloworld\header.h
+	<iostream>
+	<stdlib.h>
+
+1568851818 c:\users\admin\desktop\test\helloworld\matrixclass.cpp
+	"header.h"
+	<stdio.h>
+
+1568851186 source:c:\users\admin\desktop\test\helloworld\matrixclass.cpp
+	"header.h"
+

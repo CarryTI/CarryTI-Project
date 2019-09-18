@@ -17,12 +17,16 @@ int main()
     sMatrix.cMat();
     sMatrix.printMat();
 
-    // Variant 1
-    // sumMatrix.setMat(fMatrix.add(sMatrix));
+//     Variant 1
+    //sumMatrix.setMat(fMatrix.add(sMatrix));
+    //sumMatrix.setI(2);
+    //sumMatrix.setJ(2);
+    //sumMatrix.printMat();
     // variant 2
 
     // Variant 3
-    // sumMatrix.add(fMatrix, sMatrix);
+     sumMatrix.add(fMatrix, sMatrix);
 
-    sumMatrix.printMat();
+     sumMatrix.printMat();
+
 }
