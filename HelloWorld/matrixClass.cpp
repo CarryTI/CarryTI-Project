@@ -51,16 +51,6 @@ public:
     myMatrix add(myMatrix matrix)
     {
         myMatrix summ;
-
-        for (int y = 0; y < this->i; y++)
-        {
-            for (int x = 0; x < this->j; x++)
-            {
-                summ->mat[y][x] = this->mat[y][x] + (matrix.getMat())[y][x];
-            }
-        }
-
-        return (summ);
     }
 
     //variant 3
