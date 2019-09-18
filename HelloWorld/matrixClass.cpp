@@ -10,13 +10,6 @@ class myMatrix {
     public: int add()
     {
 
-         for (int y = 0; y < this->i; y++)
-        {
-            for (int x = 0; x < this->j; x++)
-            {
-                 this->mat[y][x] = fMatrix.mat[y][x] + sMartix.mat[y][x];
-            }
-        }
     }
 
     public: myMatrix copyMat()
