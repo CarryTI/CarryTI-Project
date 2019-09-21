@@ -2,6 +2,12 @@
 #include "header.h"
 #include "matrixClass.cpp"
 
+void ft_death(void)
+{
+    cout << "Error with matrix!\n";
+    exit();
+}
+
 int main()
 {
     myMatrix fMatrix;
@@ -17,17 +23,7 @@ int main()
     sMatrix.cMat();
     sMatrix.printMat();
 
-//     Variant 1
-    //sumMatrix.setMat(fMatrix.add(sMatrix));
-    //sumMatrix.setI(2);
-    //sumMatrix.setJ(2);
-    //sumMatrix.printMat();
-    
-    // variant 2
-    
+    sumMatrix.add(fMatrix, NULL);
 
-    // Variant 3
-    //sumMatrix.add(fMatrix, sMatrix);
-     //sumMatrix.printMat();
-
+    sumMatrix.printMat();
 }
