@@ -9,7 +9,7 @@
 
 using namespace std;
 
-#endif // HEADER_H
+#endif
 
 
 

@@ -20,7 +20,7 @@
 	"header.h"
 	"matrixClass.cpp"
 
-1568838634 c:\users\admin\desktop\test\helloworld\header.h
+1569067850 c:\users\admin\desktop\test\helloworld\header.h
 	<iostream>
 	<stdlib.h>
 
@@ -28,6 +28,7 @@
 	"header.h"
 	<stdio.h>
 
-1568851186 source:c:\users\admin\desktop\test\helloworld\matrixclass.cpp
+1568851818 source:c:\users\admin\desktop\test\helloworld\matrixclass.cpp
 	"header.h"
+	<stdio.h>
 

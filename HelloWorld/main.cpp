@@ -22,11 +22,12 @@ int main()
     //sumMatrix.setI(2);
     //sumMatrix.setJ(2);
     //sumMatrix.printMat();
+    
     // variant 2
+    
 
     // Variant 3
-     sumMatrix.add(fMatrix, sMatrix);
-
-     sumMatrix.printMat();
+    //sumMatrix.add(fMatrix, sMatrix);
+     //sumMatrix.printMat();
 
 }
