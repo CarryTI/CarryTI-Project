@@ -5,25 +5,11 @@
 void ft_death(void)
 {
     cout << "Error with matrix!\n";
-    exit();
+    exit(1);
 }
 
-int main()
+int main(int ac, char** av)
 {
-    myMatrix fMatrix;
-    myMatrix sMatrix;
-    myMatrix sumMatrix;
-
-    fMatrix.getSize();
-    fMatrix.allocateMat();
-    fMatrix.cMat();
-    fMatrix.printMat();
-    sMatrix.getSize();
-    sMatrix.allocateMat();
-    sMatrix.cMat();
-    sMatrix.printMat();
-
-    sumMatrix.add(fMatrix, NULL);
-
-    sumMatrix.printMat();
+   // printf("%s\n", av[0]);
+    return 0;
 }

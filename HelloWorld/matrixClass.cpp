@@ -2,6 +2,7 @@
 #include "header.h"
 #include <stdio.h>
 
+
 class myMatrix
 {
 
@@ -9,12 +10,13 @@ private:
     int i;
     int j;
     int **mat;
+    public : int verbose;
 
 public:
     void add(myMatrix matrix1, myMatrix matrix2)
     {
 
-        if (!matrix1 || !matrix2)
+        if (matrix1.getMat() || matrix2.getMat())
             ft_death();
 
         this->i = matrix1.getI();
@@ -55,8 +57,10 @@ public:
 public:
     void printMat()
     {
+        if (verbose == 1) {
         cout << "\nYour matrix is: \n"
              << endl;
+        }
         for (int y = 0; y < this->i; y++)
         {
             for (int x = 0; x < this->j; x++)
@@ -114,13 +118,16 @@ public:
 public:
     void getSize()
     {
+        if (verbose == 1) {
         cout << "Hello, it is a program for work with matrix!" << endl
              << "First of all you need to set sire of your matrix!" << endl
              << "Set i and j-size below:" << endl;
+         }
 
         cout << "i = ";
         cin >> i;
         cout << "j = ";
         cin >> j;
+
     }
 };
