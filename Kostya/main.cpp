@@ -8,7 +8,7 @@ void ft_death(void)
     exit(1);
 }
 
-int main(int ac, char **av)
+int main(int ac, char **av) 
 {
     if (ac == 2) 
         printf("Я думаю что: %s!\n", av[1]);
