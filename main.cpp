@@ -10,7 +10,7 @@ void ft_death(void)
 
 int main(int ac, char **av)
 {
-    if (ac == 2)
-        printf("%s\n", av[1]);
+    if (ac == 2) 
+        printf("Я думаю что: %s!\n", av[1]);
     return 0;
 }
