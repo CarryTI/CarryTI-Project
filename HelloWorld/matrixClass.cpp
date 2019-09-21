@@ -10,66 +10,24 @@ private:
     int j;
     int **mat;
 
-    /*
+public:
+    void add(myMatrix matrix1, myMatrix matrix2)
+    {
 
-    ! 1. Запихивать результат в двумерный массив и потом передать его объекта.
-    ! 1.1. Объявить массив
-    ! 1.2. Выделить память под размеры
-    ! 1.3. Записать сумму в каждую ячейку
-    ! 1.4. Присвоить массив новому классу с помозью setMass()
+        if (!matrix1 || !matrix2)
+            ft_death();
 
-    ? 2. Запихивать результат сложения в каждую ячейку массива нового объекта.
-    ? 2.1. Написать функцию в классе которая позволяет get опр. ячейку массива
-    ? 2.2. Присвоить опр. ячейке массива результат слоэения
-
-    TODO 3. Использовать this что бы запихивать результат сложения в ячейку.
-    TODO 3.1. Применять add уже к новому объекту
-
-*/
-
-    // variant 1
- //    public: int **add(myMatrix matrix)
-   //      {
-     //        int **summ;
-//
-  //           summ = (int **)malloc(sizeof(int *) * this->i);
-    //         for (int x = 0; x < this->i; x++)
-      //       {
-        //         summ[x] = (int *)malloc(sizeof(int) * this->j);
-          //   }
-
-      //       for (int y = 0; y < this->i; y++)
-       //      {
-         //        for (int x = 0; x < this->j; x++)
-           //      {
-          //          summ[y][x] = this->mat[y][x] + (matrix.getMat())[y][x];
-           //      }
-           //  }
-           //  return (summ);
-       // }
-
-    //variant 2
-//public:
- //   myMatrix add(myMatrix matrix)
-  //  {
-  //      myMatrix summ;
-  //  }
-
-    //variant 3
-     public:
-         void add(myMatrix matrix1, myMatrix matrix2)
-         {
-             this->i = matrix1.getI();
-             this->j = matrix1.getJ();
-             this->allocateMat();
-             for (int y = 0; y < this->i; y++)
-             {
-                 for (int x = 0; x < this->j; x++)
-                 {
-                     this->mat[y][x] = (matrix1.getMat())[y][x] + (matrix2.getMat())[y][x];
-                 }
-             }
-         }
+        this->i = matrix1.getI();
+        this->j = matrix1.getJ();
+        this->allocateMat();
+        for (int y = 0; y < this->i; y++)
+        {
+            for (int x = 0; x < this->j; x++)
+            {
+                this->mat[y][x] = (matrix1.getMat())[y][x] + (matrix2.getMat())[y][x];
+            }
+        }
+    }
 
 public:
     myMatrix copyMat()
