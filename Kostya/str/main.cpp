@@ -26,23 +26,33 @@ void ft_write (int str)
 
 int ft_putnum(int number)
 {
+ 	int size = 0;
+ 	int number2 = number;
 
-	int num[4];
+ 	for (int i = 0; number2 != 0; i++)
+ 	{
+ 		number2 = number2 / 10;
+ 		size++;
+ 	}
+	
+	int *num = new int[size];
 	int x = 1;
-	for (int i = 4; i >= 1; i--){
+	for (int i = size; i >= 1; i--){
 		num[i] = (number / x) % 10;
 		x = x*10;
 	}
 
-		for (int i = 1; i <= 4; i++)
+		for (int i = 1; i <= size; i++)
 			ft_write(ft_asciiGod(num[i]));
+
+	delete [] num;
 }
 
 int main()
 {
 	int num;
 
-	num = 1234;
+	num = 12344334;
 	ft_putnum(num);	
 	return 0;
 
